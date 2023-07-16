@@ -36,7 +36,7 @@ if(Reading2 == HIGH && counter2 == 0)
 {
   analogWrite(led4, 255);
   analogWrite(led5, 0);
-  analogWrite(led6, 255);
+  analogWrite(led6, 130);
   counter2 = 1;
 }
 if(Reading1 == LOW && counter1 == 1)
